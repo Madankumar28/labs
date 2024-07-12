@@ -1,4 +1,5 @@
 ---
- - hosts: aws
+ - hosts: all
+   become: yes
    roles:
-     - role1
+     - tomcat
